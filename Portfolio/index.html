@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<link>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project Portfolio</title>
+    <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+<body id="body">
+
+    <header class="header">
+        <div class="container">
+            <div class="nav">
+                <ul class="nav__list" id="Home">
+                    <li><a href="#Home"class="active">Home</a></li>
+                    <li><a href="#About_me">About me</a></li>
+                    <li><a href="#Portfolio">Portfolio</a></li>
+                    <li><a href="#Contacts">Contacts</a></li>
+                </ul>
+
+                <button class="nav_togle">TOGLLE NAV</button>
+
+            </div>
+            
+            <div class="header__content">
+     
+                <h1 class="name">Denis<br>Novik</h1>
+                <p>UX | UI designer<br>24 years old, Minsk</p>
+                
+                
+
+            </div>
+            <div class="header__img none" ><img src="./img/header/header.jpg" alt="foto"></div>
+        </div>  
+    </header>
+
+    <main>
+        <section class="about__me" id="About_me">
+            <div class="container">
+                <div class="about">
+                    <h2>About me</h2>
+                    <div class="about__text">
+                        <p #text-1>
+                        Hi, I'm Denis – UX/UI designer from Minsk.<br> 
+                        I'm interested in design and everything connected with it.
+                        </p>
+                        <p #text-2>
+                        I'm studying at courses "Web and mobile design 
+                        interfaces" in IT-Academy.
+                        </p>
+                        <p #text-3>
+                        Ready to implement excellent projects<br>
+                         with wonderful people.
+                        </p>
+                     </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="portfolio" id="Portfolio">
+            <div class="container">
+                <div class="name__text">
+                    <h2>Portfolio</h2>
+                </div>
+                <div class="portfolio__img" >
+
+                    <div id="myModal" class="modal">
+                        <span class="close" onclick="document.getElementById('myModal').style.display='none'">&times;</span>
+
+                        <img src="" class="modal-content" id="img01">
+
+                        <div id="caption"></div>
+
+                    </div>
+
+                    <div class="portfolio__row">
+
+                        <img src="./img/portfolio/portfolio_img/img-1.jpg" alt="1" id="myImg-1">
+                        <img src="./img/portfolio/portfolio_img/img-2.jpg" alt="2" id="myImg-2">
+                        <img src="./img/portfolio/portfolio_img/img-3.jpg" alt="3" id="myImg-3">
+                        <img src="./img/portfolio/portfolio_img/img-4.jpg" alt="7" id="myImg-4">
+                        <img src="./img/portfolio/portfolio_img/img-5.jpg" alt="7" id="myImg-5">
+                        <img src="./img/portfolio/portfolio_img/img-6.jpg" alt="8" id="myImg-6">
+                        <img src="./img/portfolio/portfolio_img/img-7.jpg" alt="9" id="myImg-7">
+                        <img src="./img/portfolio/portfolio_img/img-8.jpg" alt="7" id="myImg-8">
+                        <img src="./img/portfolio/portfolio_img/img-9.jpg" alt="8" id="myImg-9">
+                        <img src="./img/portfolio/portfolio_img/img-10.jpg" alt="9" id="myImg-10">
+                        <img src="./img/portfolio/portfolio_img/img-11.jpg" alt="10" id="myImg-11">
+                        <img src="./img/portfolio/portfolio_img/img-12.jpg" alt="11" id="myImg-12">
+                        <img src="./img/portfolio/portfolio_img/img-13.jpg" alt="12" id="myImg-13"> 
+                        <img src="./img/portfolio/portfolio_img/img-14.jpg" alt="13" id="myImg-14">
+                        
+                        
+                        
+                    </div>
+
+<!-- 
+                    <div class="portfolio__row">
+                        <img src="./img/portfolio/portfolio_img/img-4.jpg" alt="4" id="myImg-4">
+                        <img src="./img/portfolio/portfolio_img/img-5.jpg" alt="5" id="myImg-5">
+                        <img src="./img/portfolio/portfolio_img/img-6.jpg" alt="6" id="myImg-6">
+                        
+                        
+                    </div>
+                    
+                    <div class="portfolio__row">
+                        <img src="./img/portfolio/portfolio_img/img-7.jpg" alt="7" id="myImg-7">
+                        <img src="./img/portfolio/portfolio_img/img-8.jpg" alt="8" id="myImg-8">
+                        <img src="./img/portfolio/portfolio_img/img-9.jpg" alt="9" id="myImg-9"> 
+                    </div>
+
+                    <div class="portfolio__row">
+                        <img src="./img/portfolio/portfolio_img/img-10.jpg" alt="10" id="myImg-10">
+                        <img src="./img/portfolio/portfolio_img/img-11.jpg" alt="11" id="myImg-11">
+                        <img src="./img/portfolio/portfolio_img/img-12.jpg" alt="12" id="myImg-12"> 
+                    </div>
+
+                    <div class="portfolio__row" id="img-13-14">
+                        <img src="./img/portfolio/portfolio_img/img-13.jpg" alt="13" id="myImg-13">
+                        <img src="./img/portfolio/portfolio_img/img-14.jpg" alt="14" id="myImg-14">
+                        
+                         
+                    </div> -->
+                
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+        <footer id="Contacts">
+            <div class="conteiner">
+                <div class="footer">
+                    <h2>Contacts</h2>
+                    <p>Want to know more or just chat? <br>
+                        You are welcome!</p>
+                    <button class="btn">Send message</button>
+                    <div class="footer__img">
+                        <a target="_blank" href="!#"><img src="./img/footer/twitter-1.png" alt="in"></a>
+                        <a target="_blank" href="https://www.artstation.com/xeniasmyslova"><img src="./img/footer/artstation.png" alt="in"></a>
+                        
+                        <a target="_blank" href="!#"><img src="./img/footer/Group-2.png" alt="in"></a>
+                    </div>
+                    <p class="bottom">Like me on<br>
+                        <span> Twitter, ArtStation, LinkedIn</span></p>
+                </div>    
+            </div>
+        </footer>
+
+    <script src="./app.js"></script>
+</body>
+</html>
